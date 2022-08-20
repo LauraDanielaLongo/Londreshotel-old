@@ -60,8 +60,18 @@ nav ul li a {
 .search{
    background-color: #000000;
    color: #ffffff;
-   margin-top: 20px;
-}
+   margin-top: 20px ;
+   letter-spacing: 2px;
+   transition:0.2s;
+   }
+
+   .search:hover{
+      background: #fdfdfd66 ;
+      box-shadow: 0 0 10px#fdfdfd66 , 0 0 40px #fdfdfd66 , 0 0 80px #fdfdfd66 ;
+     
+ 
+   }
+
 .redesSociales i {
 margin:10px;
 }
@@ -171,7 +181,12 @@ footer {
    background-color: #000000;
    color: #ffffff;
    margin-top: 20px;
-
+ 
+}
+.infoRooms :hover{
+  
+      background: #fdfdfd66 ;
+      box-shadow: 0 0 10px#fdfdfd66 , 0 0 40px #fdfdfd66 , 0 0 80px #fdfdfd66 ;
 }
 
 .habitaciones{
@@ -191,9 +206,18 @@ footer {
 .infoRooms h1, .titulo h1{
    text-align: center;
    margin-bottom: 30px;
+   
 
 
 }
+
+.infoRooms :hover{
+   background: #fdfdfd66 ;
+   box-shadow: 0 0 10px#fdfdfd66 , 0 0 40px #fdfdfd66 , 0 0 80px #fdfdfd66 ;
+   color: black;
+}
+  
+  
 .infoRooms{
    margin: 80px 0px;
 }
@@ -258,6 +282,12 @@ footer {
    color: #ffffff;
    margin-top: 10px;
    margin-bottom: 10px;
+   
+}
+.register:hover{
+   background: #fdfdfd66 ;
+   box-shadow: 0 0 10px#fdfdfd66 , 0 0 40px #fdfdfd66 , 0 0 80px #fdfdfd66 ;
+   color: black;
 }
 
 .contactomapa{
@@ -408,6 +438,10 @@ footer {
    height: 220px;
 }
  } 
+
+
+
+ 
 
 
 
