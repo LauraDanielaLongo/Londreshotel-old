@@ -1,3 +1,9 @@
+
+@import  "./partials/variables",
+         "./partials/header",
+         "./partials/footer",
+         "./partials/mainIndex";
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
 * {
@@ -7,92 +13,10 @@
 }
 
 
-nav ul li {
-   list-style-type: none;
-}
-nav ul li a {
-   margin: 5px 10px 4px 10px;
-   text-decoration:none;
-   color: #000000;
-}
-
-.menu,.info {
-   display: flex;
-   font-size: 2vh;
-}
-.encabezado, .info{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   margin:0 40px;
-}
-.banner{
-   background-image:url(../img/Londres.jpg);
-   background-size: cover;
-   background-position: center;
-   width: 100%;
-   height: 400px;
-   padding: 10px 0px 0px 0px;
-}
-.checkin{
-   width: 200px;
-   height: 300px;
-   background-color: rgba(255,255,255,0.5);
-   border-radius: 10px ;
-   display: flex;
-   flex-direction: column;
-   margin-left: 80px;
-   padding: 5px;
-   align-items: center;
-   justify-content: space-evenly;
-}
-.titulo{
-
-   font-weight: bold;
-}
-.checkin input{
-   width: 90%;
-   border-radius: 20px;
-   border:none;
-   height: 25px;
-
-}
-.search{
-   background-color: #000000;
-   color: #ffffff;
-   margin-top: 20px ;
-   letter-spacing: 2px;
-   transition:0.2s;
-   }
-
-   .search:hover{
-      background: #fdfdfd66 ;
-      box-shadow: 0 0 10px#fdfdfd66 , 0 0 40px #fdfdfd66 , 0 0 80px #fdfdfd66 ;
-     
- 
-   }
-
-.redesSociales i {
-margin:10px;
-}
 
 
 
-footer {
-   height: 125px;
-   width: 100%;
-   background-color: #000000;
-   color:#ffffff;
-   font-size:15px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-  
-  
-}
-.fa-brands{
-   font-size: 20px;
-}
+
 
 .contenedorIndex{
    display: grid;
@@ -178,15 +102,15 @@ footer {
 .boton{
    width: 100px;
    height: 50px;
-   background-color: #000000;
-   color: #ffffff;
+   background-color:$darkColor; 
+   color:$whiteColor;
    margin-top: 20px;
  
 }
 .infoRooms :hover{
   
-      background: #fdfdfd66 ;
-      box-shadow: 0 0 10px#fdfdfd66 , 0 0 40px #fdfdfd66 , 0 0 80px #fdfdfd66 ;
+      background:  $greyColor ;
+      box-shadow: 0 0 10px $greyColor , 0 0 40px  $greyColor , 0 0 80px  $greyColor ;
 }
 
 .habitaciones{
@@ -212,9 +136,9 @@ footer {
 }
 
 .infoRooms :hover{
-   background: #fdfdfd66 ;
-   box-shadow: 0 0 10px#fdfdfd66 , 0 0 40px #fdfdfd66 , 0 0 80px #fdfdfd66 ;
-   color: black;
+   background:  $greyColor ;
+   box-shadow: 0 0 10px$greyColor , 0 0 40px  $greyColor , 0 0 80px  $greyColor ;
+   color:$darkColor;
 }
   
   
@@ -278,23 +202,23 @@ footer {
 .register{
    width: 100px;
    height: 50px;
-   background-color: #000000;
-   color: #ffffff;
+   background-color:$darkColor;
+   color:$whiteColor;
    margin-top: 10px;
    margin-bottom: 10px;
    
 }
 .register:hover{
-   background: #fdfdfd66 ;
-   box-shadow: 0 0 10px#fdfdfd66 , 0 0 40px #fdfdfd66 , 0 0 80px #fdfdfd66 ;
-   color: black;
+   background:  $greyColor ;
+   box-shadow: 0 0 10px $greyColor , 0 0 40px  $greyColor , 0 0 80px  $greyColor ;
+   color:$darkColor
 }
 
 .contactomapa{
    display: flex;
    justify-content: space-around;
    margin-bottom: 20px;
-   border-top: 2px solid #000000;
+   border-top: 2px solid $darkColor;
    padding-top: 20px;
 }
 

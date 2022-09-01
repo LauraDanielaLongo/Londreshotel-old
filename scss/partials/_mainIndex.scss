@@ -1,0 +1,49 @@
+.banner{
+   background-image:url(../img/Londres.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 400px;
+   padding: 10px 0px 0px 0px;
+}
+.checkin{
+   width: 200px;
+   height: 300px;
+   background-color: rgba(255,255,255,0.5);
+   border-radius: 10px ;
+   display: flex;
+   flex-direction: column;
+   margin-left: 80px;
+   padding: 5px;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.titulo{
+
+   font-weight: bold;
+}
+.checkin{
+    input{
+        width: 90%;
+        border-radius: 20px;
+        border:none;
+        height: 25px;
+     
+     }
+}
+.search{
+   background-color:$darkColor;
+   color:$whiteColor;
+   margin-top: 20px ;
+   letter-spacing: 2px;
+   transition:0.2s;
+   }
+
+   .search{
+    &:hover{
+        background: #fdfdfd66 ;
+        box-shadow: 0 0 10px#fdfdfd66 , 0 0 40px #fdfdfd66 , 0 0 80px #fdfdfd66 ;
+       
+   
+     }
+   }
